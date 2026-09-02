@@ -125,7 +125,7 @@ div.refpageimage {
     width: 16px;
     height: 16px;
     cursor: pointer;
-    background-image: url(images/newwindow.gif);
+    background-image: url(images/newwindow.gif?v=20260902135109);
     background-repeat: no-repeat;
 }
 
@@ -137,7 +137,7 @@ div.annnoteimage {
     /*width: 16px;
     height: 12px;*/
     cursor: help;
-    /*background-image: url(images/note.gif);*/
+    /*background-image: url(images/note.gif?v=20260902135109);*/
     /*background-repeat: no-repeat;*/
     width: 13px;
     height: 12px;

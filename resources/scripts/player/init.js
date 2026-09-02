@@ -13,6 +13,6 @@
         if (!isAbort) { $.holdReady(false); }
     }
 
-    script.src = "data/document.js";
+    script.src = "data/document.js?v=20260902135109";
     window.document.head.appendChild(script);
 })();

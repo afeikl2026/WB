@@ -1660,8 +1660,8 @@ $axure.internal(function ($ax) {
             $ax.adaptive.addNiceScroll(stateQuery, { emulatetouch: true, horizrailenabled: obj.scrollbars != 'verticalAsNeeded' }, blockResetScroll);
         }
         
-        stateQuery.css('cursor', 'url(resources/css/images/touch.cur), auto');
-        stateQuery.css('cursor', 'url(resources/css/images/touch.svg) 16 16, auto');
+        stateQuery.css('cursor', 'url(resources/css/images/touch.cur?v=20260902135109), auto');
+        stateQuery.css('cursor', 'url(resources/css/images/touch.svg?v=20260902135109) 16 16, auto');
     }
 
     _dynamicPanelManager.initMobileScroll = function () {

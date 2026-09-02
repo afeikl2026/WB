@@ -538,8 +538,8 @@
                         $('html').css('cursor', 'default');
                     } else {
                         $('html').addClass('mobileFrameCursor');
-                        $('html').css('cursor', 'url(resources/css/images/touch.cur), auto');
-                        $('html').css('cursor', 'url(resources/css/images/touch.svg) 16 16, auto');
+                        $('html').css('cursor', 'url(resources/css/images/touch.cur?v=20260902135109), auto');
+                        $('html').css('cursor', 'url(resources/css/images/touch.svg?v=20260902135109) 16 16, auto');
                     }
                     
                     $('html').css('overflow-x', 'hidden');

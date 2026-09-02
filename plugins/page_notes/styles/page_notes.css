@@ -9,11 +9,11 @@
 }
 
 #pageNotesHostBtn a {
-    background: url('images/notes_panel_on.svg') no-repeat center center,linear-gradient(transparent, transparent);
+    background: url('images/notes_panel_on.svg?v=20260902135109') no-repeat center center,linear-gradient(transparent, transparent);
 }
 
 #pageNotesHostBtn a.selected, #pageNotesHostBtn a.selected:hover {
-    background: url('images/notes_panel_off.svg') no-repeat center center,linear-gradient(transparent, transparent);
+    background: url('images/notes_panel_off.svg?v=20260902135109') no-repeat center center,linear-gradient(transparent, transparent);
 }
 
 #pageNotesScrollContainer {
@@ -179,7 +179,7 @@ div.closeNotesDialog {
     width: 11px;
     height: 10px;
     object-fit: contain;
-    background: url(../../../resources/images/close_x.svg) no-repeat center center, linear-gradient(transparent, transparent);
+    background: url(../../../resources/images/close_x.svg?v=20260902135109) no-repeat center center, linear-gradient(transparent, transparent);
     margin-left: auto;
     cursor: pointer;
 }
@@ -191,7 +191,7 @@ div.resizeNotesDialog {
     width: 11px;
     height: 10px;
     object-fit: contain;
-    background: url(../../../resources/images/resize.svg) no-repeat center center, linear-gradient(transparent, transparent);
+    background: url(../../../resources/images/resize.svg?v=20260902135109) no-repeat center center, linear-gradient(transparent, transparent);
     margin-left: auto;
     cursor: nwse-resize;
 }

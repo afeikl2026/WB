@@ -196,7 +196,7 @@ input[type=text]::-ms-clear {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-image: url(../images/transparent.gif);
+    background-image: url(../images/transparent.gif?v=20260902135109);
     z-index: 10000;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -450,10 +450,10 @@ input[type=text]::-ms-clear {
 }
 
 #overflowMenuButton {
-    background: url('../images/overflow-icon.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('../images/overflow-icon.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 #overflowMenuButton.selected {
-    background: url('../images/overflow_icon_off.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('../images/overflow_icon_off.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 
 .overflowOptionCheckbox, #projectOptionsHotspotsCheckbox {
@@ -477,7 +477,7 @@ input[type=text]::-ms-clear {
 }
 
 .overflowOptionCheckbox.selected, #projectOptionsHotspotsCheckbox.selected {
-    background: url('../images/overflow_checkmark.svg') no-repeat center center;
+    background: url('../images/overflow_checkmark.svg?v=20260902135109') no-repeat center center;
 }
 
 #overflowMenuContainer {
@@ -509,7 +509,7 @@ input[type=text]::-ms-clear {
 }
 
 .vpZoomValue.selected {
-    background: url(../images/overflow_checkmark.svg) no-repeat 9px center;
+    background: url(../images/overflow_checkmark.svg?v=20260902135109) no-repeat 9px center;
 }
 
 .vpZoomValue:hover {
@@ -548,10 +548,10 @@ input[type=text]::-ms-clear {
 .caret {
     width: 9px;
     height: 7px;
-    background: url('../images/caret_down.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('../images/caret_down.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 .selected .caret {
-    background: url('../images/caret_down_off.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('../images/caret_down_off.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 .upCaret {
     transform: rotate(-45deg);
@@ -579,18 +579,18 @@ input[type=text]::-ms-clear {
 }
 
 #minimizeX {
-    background: url('../images/close.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('../images/close.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 
 #minimizeArrow {
     opacity: 0;
     transform: rotate(180deg);
-    background: url('../images/left_arrow.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('../images/left_arrow.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 
 #maximizeButton {
     transform: rotate(0deg);
-    background: url('../images/left_arrow.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('../images/left_arrow.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 
 .collapseHovered #minimizeX {
@@ -705,7 +705,7 @@ input[type=text]::-ms-clear {
     display: none;
     float:left;
     width: 16px;
-    background: url('../images/views-icon.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('../images/views-icon.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 
 #interfaceScaleContainer {
@@ -729,7 +729,7 @@ input[type=text]::-ms-clear {
     display: inline-block;
     width: 56px;
     height: 40px;
-    background: url('../images/axure9_logo.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('../images/axure9_logo.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 
 #overflowMenuContainer > #overflowMadeWith {
@@ -828,8 +828,8 @@ input[type=text]::-ms-clear {
     height: 2px;
     margin: 15px 10px 15px 10px;
     border-bottom: 1px solid #E2E8F0;
-    /*background: url('../images/divider.png') no-repeat center center;*/
-    /*background: url('../images/divider.svg') no-repeat center center, linear-gradient(transparent,transparent);*/
+    /*background: url('../images/divider.png?v=20260902135109') no-repeat center center;*/
+    /*background: url('../images/divider.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);*/
 
 }
 
@@ -909,21 +909,21 @@ div.mobileText, span.mobileText {
 #refreshIcon {
     height: 20px;
     object-fit: contain;
-    background: url('../images/refresh.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('../images/refresh.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
     margin-top: 14px;
 }
 
 #exitIcon {
     height: 19px;
     object-fit: contain;
-    background: url('../images/exit.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('../images/exit.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
     margin-top: 14px;
 }
 
 #returnIcon {
     height: 46px;
     object-fit: contain;
-    background: url('../images/return.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('../images/return.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 
 
@@ -1006,7 +1006,7 @@ div.mobileText, span.mobileText {
     margin: 0px 6px;
     color: #718096;
     cursor: pointer;
-    background: url('../images/close.svg') no-repeat center center;
+    background: url('../images/close.svg?v=20260902135109') no-repeat center center;
     background-color: inherit;
     border: none;
     border-radius: 4px;
@@ -1029,7 +1029,7 @@ div.mobileText, span.mobileText {
     padding: 14px;
     margin: 4px;
     cursor: pointer;
-    background: url('../images/close.svg') no-repeat center center;
+    background: url('../images/close.svg?v=20260902135109') no-repeat center center;
     border: none;
     border-radius: 4px;
 }

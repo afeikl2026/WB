@@ -109,11 +109,11 @@ var toolBarOnly = true;
         }
 
         if (CHROME_5_LOCAL && !$('body').attr('pluginDetected')) {
-            window.location = 'resources/chrome/chrome.html';
+            window.location = 'resources/chrome/chrome.html?v=20260902135109';
         }
 
         if (FIREFOX && BROWSER_VERSION >= 68 && document.location.href.indexOf('file://') >= 0) { //detecting firefox and local
-            window.location = 'resources/chrome/firefox.html';
+            window.location = 'resources/chrome/firefox.html?v=20260902135109';
         }
     });
     
@@ -313,7 +313,7 @@ var toolBarOnly = true;
                     canAccess = false;
                 }
 
-                if (!canAccess) window.location = 'resources/chrome/safari.html';
+                if (!canAccess) window.location = 'resources/chrome/safari.html?v=20260902135109';
             });
         }
 

@@ -18,7 +18,7 @@
     $ax.fn = {};
 
     $axure.internal = function(initFunction) {
-        //Attach messagecenter to $ax object so that it can be used in viewer.js, etc in internal scope
+        //Attach messagecenter to $ax object so that it can be used in viewer.js?v=20260902135109 etc in internal scope
         if(!$ax.messageCenter) $ax.messageCenter = $axure.messageCenter;
 
         return initFunction($ax);

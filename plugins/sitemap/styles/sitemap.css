@@ -6,11 +6,11 @@
 }
 
 #sitemapHostBtn a {
-    background: url('images/sitemap_panel_on.svg') no-repeat center center, linear-gradient(transparent, transparent);
+    background: url('images/sitemap_panel_on.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent, transparent);
 }
 
 #sitemapHostBtn a.selected, #sitemapHostBtn a.selected:hover {
-    background: url('images/sitemap_panel_off.svg') no-repeat center center, linear-gradient(transparent, transparent);
+    background: url('images/sitemap_panel_off.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent, transparent);
 }
 
 #sitemapHost .pageButtonHeader {
@@ -66,11 +66,11 @@ ul.sitemapTree {
 }
     .sitemapMinus {
         margin-bottom: 0px;
-        background: url('images/open_item.svg') no-repeat center center, linear-gradient(transparent,transparent);
+        background: url('images/open_item.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
     }
     .sitemapPlus {
         margin-bottom: 2px;
-        background: url('images/closed_item.svg') no-repeat center center, linear-gradient(transparent,transparent);
+        background: url('images/closed_item.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
     }
 
 .mobileMode .sitemapMinus, .mobileMode .sitemapPlus {
@@ -89,7 +89,7 @@ ul.sitemapTree {
     width: 16px;
     height: 16px;
     display: inline-block;
-    background: url('images/page_lt_grey.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('images/page_lt_grey.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 
 .mobileMode .sitemapPageIcon {
@@ -98,7 +98,7 @@ ul.sitemapTree {
 }
 
 .sitemapFolderIcon {
-    background: url('images/folder_closed_blue.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('images/folder_closed_blue.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 
 .mobileMode .sitemapFolderIcon {
@@ -110,7 +110,7 @@ ul.sitemapTree {
 }
 
 .sitemapFlowIcon {
-    background: url('images/flow.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('images/flow.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 
 .sitemapFolderOpenIcon {
@@ -183,11 +183,11 @@ ul.sitemapTree {
 }
 
 #expandCollapseAll.expanded {
-    background: url('images/collapse.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('images/collapse.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 
 #expandCollapseAll.collapsed {
-    background: url('images/expand.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('images/expand.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 
 .sitemapToolbarButton {
@@ -208,12 +208,12 @@ ul.sitemapTree {
 }
 
 .leftArrow {
-    background: url('images/left_arrow.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('images/left_arrow.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
     margin-left: 11px;
 }
 
 .rightArrow {
-    background: url('images/right_arrow.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('images/right_arrow.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
     margin-left: 3px;
     margin-right: 2px;
 }
@@ -221,7 +221,7 @@ ul.sitemapTree {
 #searchIcon {
     width: 16px;
     height: 16px;
-    background: url('images/search_on.svg') no-repeat left center, linear-gradient(transparent,transparent);
+    background: url('images/search_on.svg?v=20260902135109') no-repeat left center, linear-gradient(transparent,transparent);
     margin: 0 8px;
     flex-shrink: 0;
 }
@@ -229,7 +229,7 @@ ul.sitemapTree {
 #clearSearchIcon {
     width: 16px;
     height: 16px;
-    background: url('images/close.svg') no-repeat left center, linear-gradient(transparent,transparent);
+    background: url('images/close.svg?v=20260902135109') no-repeat left center, linear-gradient(transparent,transparent);
     padding-right: 8px;
     flex-shrink: 0;
     cursor: pointer;
@@ -249,7 +249,7 @@ ul.sitemapTree {
     vertical-align: bottom;
     margin: 2px;
     display: inline-block;
-    background: url('images/back_keys.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('images/back_keys.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 
 .forwardKeys {
@@ -259,7 +259,7 @@ ul.sitemapTree {
     vertical-align: bottom;
     margin: 2px;
     display: inline-block;
-    background: url('images/forward_keys.svg') no-repeat center center, linear-gradient(transparent,transparent);
+    background: url('images/forward_keys.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent,transparent);
 }
 
 #interfaceAdaptiveViewsListContainer {

@@ -4,7 +4,7 @@
  *
  *
  */
-const START_URL_NAME = 'start.html';
+const START_URL_NAME = 'start.html?v=20260902135109';
 const PAGE_ID_NAME = 'id';
 const PAGE_URL_NAME = 'p';
 const SITEMAP_COLLAPSE_VAR_NAME = 'c';

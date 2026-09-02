@@ -11,11 +11,11 @@
 }
 
 #debugHostBtn a {
-    background: url('images/console_panel_on.svg') no-repeat center center, linear-gradient(transparent, transparent);
+    background: url('images/console_panel_on.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent, transparent);
 }
 
 #debugHostBtn a.selected, #debugHostBtn a.selected:hover {
-    background: url('images/console_panel_off.svg') no-repeat center center, linear-gradient(transparent, transparent);
+    background: url('images/console_panel_off.svg?v=20260902135109') no-repeat center center, linear-gradient(transparent, transparent);
 }
 
 #debugToolbar {

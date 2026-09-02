@@ -129,7 +129,7 @@
     _action.refreshStart = function(repeaterId) { _refreshing.push(repeaterId); };
     _action.refreshEnd = function() { _refreshing.pop(); };
 
-    // TODO: [ben] Consider moving this to repeater.js
+    // TODO: [ben] Consider moving this to repeater.js?v=20260902135109
     var _repeatersToRefresh = _action.repeatersToRefresh = [];
     var _ignoreAction = function(repeaterId) {
         for(var i = 0; i < _refreshing.length; i++) if(_refreshing[i] == repeaterId) return true;
@@ -417,7 +417,7 @@
             if(url) {
                 let useStartHtml = shouldUseStartHtml(action);
                 if(useStartHtml) {
-                    //use start.html to load player
+                    //use start.html?v=20260902135109 to load player
                     url = urlWithStartHtml(url);
                     //collapse player for popup
                     if(action.linkType == "popup") url = urlWithCollapseSitemap(url);
@@ -448,12 +448,12 @@
         _dispatchAction(eventInfo, actions, index + 1);
     };
     
-    //use start.html will add a player to the prototype
+    //use start.html?v=20260902135109 will add a player to the prototype
     var shouldUseStartHtml = function(linkAction) {
         return linkAction.target.targetType == 'page' //only adding player for page, not external links
                && (linkAction.linkType == "popup" || linkAction.linkType == "new") //only add for popup and new tabs
                && $axure.utils.isInPlayer() //allow user to view without player (maybe useful for user testing)
-               && !$axure.utils.isShareApp() //share app use special handling on its link, add start.html breaks the handling
+               && !$axure.utils.isShareApp() //share app use special handling on its link, add start.html?v=20260902135109 breaks the handling
     }
     
     var urlWithStartHtml = function(url) {
